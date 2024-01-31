@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Votre Portfolio</title>
+</head>
+<body>
+
+    <!-- Page d'accueil -->
+    <section id="accueil">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Une brève introduction de moi-même.</p>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Compétence 1</li>
+            <li>Compétence 2</li>
+            <li>Compétence 3</li>
+        </ul>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets">
+        <h2>Projets</h2>
+        <div class="projet">
+            <h3>Nom du Projet 1</h3>
+            <p>Description du projet 1.</p>
+        </div>
+        <div class="projet">
+            <h3>Nom du Projet 2</h3>
+            <p>Description du projet 2.</p>
+        </div>
+    </section>
+
+    <!-- Section Formations et Expériences -->
+    <section id="formations-experiences">
+        <h2>Formations et Expériences</h2>
+        <div class="formation">
+            <h3>Titre de la Formation</h3>
+            <p>Date de début - Date de fin</p>
+            <p>Description de la formation.</p>
+        </div>
+        <div class="experience">
+            <h3>Poste occupé</h3>
+            <p>Date de début - Date de fin</p>
+            <p>Description de l'expérience.</p>
+        </div>
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="traitement_formulaire.php" method="POST">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+</body>
+</html>
